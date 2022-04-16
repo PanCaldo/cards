@@ -1,0 +1,177 @@
+.slider {
+}
+.container {
+    max-width: 100%;
+    width: 1230px;
+    padding: 15px 15px;
+    margin: 0 auto;
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.slider-cards {
+}
+
+.buy {
+    &__section {
+        padding-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__section-link {
+    }
+
+    &__section-img {
+        margin: 0 8px;
+        &:hover {
+            content: url(../img/star.png);
+        }
+    }
+}
+
+.card {
+    padding: 20px;
+    max-width: 100%;
+    width: 300px;
+    cursor: pointer;
+    border: #5c8e29 solid 1px;
+    border-radius: 5px;
+    &:hover .button {
+        border: 2px solid #557a23;
+        background: #5c8e29;
+    }
+
+    &__two-img{
+        padding-left: 80px;
+    }
+    &__one-img{
+        padding-left: 45px;
+    }
+}
+.discounts {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+    &__percent {
+        color: white;
+        background-color: tomato;
+        border-radius: 5px;
+        padding: 2px 5px;
+        margin-right: 5px;
+    }
+
+    &__info {
+        color: white;
+        background-color: rgb(96, 247, 101);
+        border-radius: 5px;
+        padding: 2px 5px;
+    }
+}
+.span__text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #73a4ed;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.link {
+    text-decoration: none;
+}
+.title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 6px 0;
+    color: black;
+}
+.rating {
+    &__review {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: rgb(122, 124, 124);
+    }
+}
+.text {
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    color: rgb(122, 124, 124);
+}
+.price {
+    margin: 0;
+    color: red;
+    position: relative;
+    &::before {
+        content: "48.56";
+        color: rgb(122, 124, 124);
+        position: absolute;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        text-decoration: line-through;
+        top: 25px;
+    }
+}
+.cashback {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #151515;
+    background-color: wheat;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 0 5px;
+}
+//.buy {
+//    &__section {
+//        padding-top: 25px;
+//        display: flex;
+//        align-items: center;
+//        justify-content: space-between;
+//        display: none;
+//    }
+
+//    &__section-link {
+//    }
+
+//    &__section-img {
+//        margin: 0 8px;
+//        &:hover {
+//            content: url(../img/star.png);
+//        }
+//    }
+//}
+.button {
+    padding: 2px 36px;
+    background: #839571;
+    border: 2px solid #6f7962;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: right;
+    color: #ffffff;
+}
